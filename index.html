@@ -136,6 +136,11 @@
         body {
             font-family: Arial, sans-serif;
             line-height: 1.6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
         }
         .container {
             width: 100%;
@@ -171,41 +176,16 @@
     </style>
 </head>
 <body>
-    <div class="container px-5 py-24 mx-auto flex flex-col">
-        <div class="lg:w-3/6 mx-auto">
-            <div class="a4-container">
-                <img src="resume.jpg" alt="Resume Image">
-            </div>
-            <div class="additional-section">
-                <h2>Contact Information</h2>
-                <p>Name: Shishir Sharma</p>
-                <p>Email: shishir.jobquest@gmail.com</p>
-                <p>Phone: +1 4372995621</p>
-            </div>
+    <div class="container">
+        <div class="a4-container">
+            <img src="resume.jpg" alt="Resume Image">
+        </div>
+        <div class="additional-section">
+            <h2>Contact Information</h2>
+            <p>Name: Shishir Sharma</p>
+            <p>Email: shishir.jobquest@gmail.com</p>
+            <p>Phone: +1 4372995621</p>
         </div>
     </div>
 </body>
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>A4 Size Image</title>
-    <style>
-        body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-        }
-        .a4-image {
-            max-width: 100%;
-            max-height: 100%;
-        }
-    </style>
-</head>
-<body>
-    <img src="resume.jpg" alt="A4 Size Image" class="a4-image">
-</body>
 </html>
-
